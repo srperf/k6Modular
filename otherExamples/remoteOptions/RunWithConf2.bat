@@ -1,0 +1,1 @@
+k6 run --config confFile.json Options.js

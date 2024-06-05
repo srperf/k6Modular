@@ -1,0 +1,1 @@
+set "K6_VUS=10" && set "K6_DURATION=30s" && set "K6_ITERATIONS=20" && k6 run Options.js

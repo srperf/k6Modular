@@ -1,0 +1,1 @@
+k6 run -u 10 -i 20 -d 30s Options.js
