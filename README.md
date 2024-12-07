@@ -1,7 +1,7 @@
 # Modularizing k6 scripts
 To avoid confusions while working on performance tests with k6 I like to modularize them.
 This gives an easy way to first use modular scripts in a continuous delivery way, without doing BALTs (Big Ass Load Test) which stop or at least slow down the pipeline.
-Never use a BALT in a pipeline.
+Never use a BALT in a pipeline. 
 
 If you use modular scripts which call a single API or test case, you can later re use them in larger load tests. The aforementioned BALT.
 
